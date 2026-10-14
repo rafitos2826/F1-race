@@ -1,1 +1,26 @@
-
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>F1 Racing - Browser</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>F1 Racing</h1>
+    <canvas id="game" width="480" height="720" aria-label="Canvas do jogo F1"></canvas>
+    <div class="hud">
+      <div id="score">Pontuação: 0</div>
+      <div id="high">Recorde: 0</div>
+    </div>
+    <div class="controls">
+      <button id="left">◀</button>
+      <button id="acc">▲</button>
+      <button id="right">▶</button>
+    </div>
+    <p class="help">Controles: ← / A = esquerda, → / D = direita, ↑ / W = acelerar, S = frear, R = reiniciar</p>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
